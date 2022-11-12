@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <h1 class="title"> Disfruta el slider</h1>
+  <div class="container swiper">
+
+    <div class="swiper-wrapper" id="container" >
+      <div class="item item-forma swiper-slide">
+        <div class="item__box">
+          <img src="./svg/logo.svg" alt=""> 
+        </div>
+        <div class="item__info">
+          <p><b>Item 1</b></p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+
+      <div class="item item-forma swiper-slide swiper-slide-duplicate-next">
+        <div class="item__box">
+          <img src="./svg/logo.svg" alt=""> 
+        </div>
+        <div class="item__info">
+          <p><b>Item 2</b></p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+
+      <div class="item item-forma swiper-slide swiper-slide-duplicate-next">
+        <div class="item__box">
+          <img src="./svg/logo.svg" alt=""> 
+        </div>
+        <div class="item__info">
+          <p><b>Item 3</b></p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+
+      </div>
+
+      <div class="item item-forma swiper-slide swiper-slide-duplicate-next">
+        <div class="item__box">
+          <img src="./svg/logo.svg" alt=""> 
+        </div>
+        <div class="item__info">
+          <p><b>Item 4</b></p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+
+      <div class="item item-forma swiper-slide swiper-slide-duplicate-next">
+        <div class="item__box">
+          <img src="./svg/logo.svg" alt=""> 
+        </div>
+        <div class="item__info">
+          <p><b>Item 5</b></p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+
+    const swiper = new Swiper('.swiper', {
+      // loop: true ,
+        slidesPerView: 1,
+        spaceBetween: 0,
+
+      // navigation: {
+      // nextEl: '.swiper-button-next',
+      // prevEl: '.swiper-button-prev',
+      // }
+    });
+
+  </script>
+  <script src="./code.js"></script>
+</body>
+</html>
