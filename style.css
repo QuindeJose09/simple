@@ -1,0 +1,79 @@
+  body {
+    margin: 0;
+  }
+  .title {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .swiper {
+    width: 90%;
+    height: 9em;
+    /* border: 1px solid #ccc; */
+    overflow: visible;
+    margin: auto;
+  }
+  img {
+    width: 40px;
+  }
+  .item {
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    padding: 0px 2px;
+    background-color: aliceblue;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+  }
+ 
+  @media screen and (min-width:321px) and (max-width:375px) {
+    .container {
+      width: 90%;
+    }   
+  } 
+/* 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+Contenedor
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+Card
+.item {
+  width: 90%;
+  min-height: 11em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.6em auto;
+}
+
+.item-forma {
+  border: 1px solid #ccc;
+  border-radius: 0.8em;
+}
+
+ Card-img
+.item__box {
+  width: 40px;
+  height: 40px;
+  border: 1px dashed;
+  border-radius: 2em;
+}
+.item__box > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0.3em;
+  transform: rotate(180deg);
+  transition: transform 2s ease;
+} */
